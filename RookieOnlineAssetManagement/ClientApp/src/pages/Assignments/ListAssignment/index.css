@@ -1,0 +1,43 @@
+.assignment-button-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.assignment-edit-button {
+  color: gray;
+  cursor: pointer;
+}
+.filter-group {
+  display: inline-flex;
+}
+.btn-filter {
+  display: inline-flex;
+  align-items: center;
+  width: 12rem;
+  justify-content: space-between;
+}
+
+.assignment-delete-button {
+  color: red;
+  cursor: pointer;
+}
+
+.assignment-return-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.assignment-edit-button-disabled {
+  color: rgba(128, 128, 128, 0.2);
+  cursor: default;
+}
+
+.assignment-delete-button-disabled {
+  color: rgba(255, 0, 0, 0.2);
+  cursor: default;
+}
+
+.assignment-return-button-disabled {
+  color: rgba(0, 0, 255, 0.2);
+  cursor: default;
+}

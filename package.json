@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "antd": "^4.21.7",
+    "js-file-download": "^0.4.12"
+  }
+}

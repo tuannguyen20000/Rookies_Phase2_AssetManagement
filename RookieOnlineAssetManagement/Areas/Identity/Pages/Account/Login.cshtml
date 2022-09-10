@@ -1,0 +1,77 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Log in</h4>
+        </div>
+        <div class="modal-body">
+            <p>Welcome to asset management.</p>
+            <p>Please log in to account to access the Homepage</p>
+            <div>
+                <form id="account" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-3">
+                            <label asp-for="Input.Username" class="col-form-label"></label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Input.Username" id="login-email" class="form-control" autocomplete="username" aria-required="true" />
+                        </div>
+                    </div>
+                    <span asp-validation-for="Input.Username" class="text-danger modal-login-warning"></span>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-3">
+                            <label asp-for="Input.Password" class="col-form-label"></label>
+                        </div>
+                        <div class="col-9">
+                            <input asp-for="Input.Password" id="login-password" type="password" class="form-control" autocomplete="current-password" aria-required="true" />
+                        </div>
+                    </div>
+                    <span asp-validation-for="Input.Password" class="text-danger modal-login-warning"></span>
+                    <div class="text-end">
+                        <button id="login-submit" type="submit" class="btn modal-login-button" disabled>Log in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        let buttonSubmit = document.getElementById("login-submit")
+        let inputEmail = document.getElementById("login-email")
+        let inputPassword = document.getElementById("login-password")
+        inputEmail.addEventListener("input", function(e) {
+	        if(inputEmail.value.length == 0) {
+                buttonSubmit.disabled = true;
+            } else {
+                if (inputPassword.value.length != 0) {
+                    buttonSubmit.disabled = false;
+                }
+                else {
+                    buttonSubmit.disabled = true;
+                }
+            }
+        })
+        inputPassword.addEventListener("input", function(e) {
+	        if(inputPassword.value.length == 0) {
+                buttonSubmit.disabled = true;
+            } else {
+                if (inputEmail.value.length != 0) {
+                    buttonSubmit.disabled = false;
+                }
+                else {
+                    buttonSubmit.disabled = true;
+                }
+            }
+        })
+    </script>
+}

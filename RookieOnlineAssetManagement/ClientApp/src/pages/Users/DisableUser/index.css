@@ -1,0 +1,81 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+#headerRed {
+  color: red;
+}
+
+.modal-body {
+  font-size: 16px;
+}
+
+.modal-button-group-container {
+  display: flex;
+}
+
+.modal-log-out .modal-button-group-container {
+  justify-content: space-between;
+}
+
+.modal-disable-button-container {
+  text-align: right;
+  margin-right: 16px;
+}
+
+.modal-disable-button-container button {
+  border: 1px solid #e9424d;
+  background-color: #e9424d;
+  color: white;
+}
+
+.modal-disable-button-container button:hover {
+  border: 1px solid #cf2338;
+  background-color: #cf2338;
+  color: white;
+}
+
+.modal-cancel-button-container {
+  text-align: right;
+}
+
+.modal-cancel-button-container button {
+  border: 1px solid gray;
+  background-color: gray;
+  color: white;
+}
+
+.modal-cancel-button-container button:hover {
+  border: 1px solid #666666;
+  background-color: #666666;
+  color: white;
+}

@@ -1,0 +1,64 @@
+#request-complete-modal {
+  min-width: 510px;
+}
+
+.request-accept-button {
+  color: white;
+  background-color: #e9424d;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.request-accept-button:hover {
+  background-color: #cf2338;
+  color: white;
+}
+
+.request-cancel-button {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.8);
+  border: none;
+}
+
+.request-cancel-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+#request-table .search-box {
+  margin-right: 0;
+}
+
+.request-list-button-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.request-list-accept-button {
+  color: red;
+  cursor: pointer;
+}
+
+.request-list-cancel-button {
+  color: black;
+  cursor: pointer;
+}
+
+.request-list-accept-button-disabled {
+  color: rgba(255, 0, 0, 0.2);
+  cursor: default;
+}
+
+.request-list-cancel-button-disabled {
+  color: rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+.filter-group {
+    display: inline-flex;
+}
+.btn-filter {
+    display: inline-flex;
+    align-items: center;
+    width: 12rem;
+    justify-content: space-between;
+}

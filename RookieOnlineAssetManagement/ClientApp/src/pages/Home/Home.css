@@ -1,0 +1,83 @@
+.home-table {
+  flex: 1;
+  padding-left: 4rem;
+}
+
+.home-table .ant-table-wrapper {
+  margin-top: 1rem;
+  /* margin-top: 3.5rem; */
+}
+
+.home-table .header-home-list {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cf2338;
+  margin-bottom: 0.5rem;
+}
+
+.home-button-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-accept-button {
+  color: red;
+  cursor: pointer;
+}
+
+.home-cancel-button {
+  color: black;
+  cursor: pointer;
+}
+
+.home-return-button {
+  color: blue;
+  cursor: pointer;
+}
+
+.home-accept-button-disabled {
+  color: rgba(255, 0, 0, 0.2);
+  cursor: default;
+}
+
+.home-cancel-button-disabled {
+  color: rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+.home-return-button-disabled {
+  color: rgba(0, 0, 255, 0.2);
+  cursor: default;
+}
+
+.home-return-modal .modal-dialog {
+  top: 30%;
+  right: 33%;
+}
+
+.assignment-accept-button {
+  color: white;
+  background-color: #e9424d;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.assignment-accept-button:hover {
+  background-color: #cf2338;
+  color: white;
+}
+
+.assignment-cancel-button {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.8);
+  border: none;
+}
+
+.assignment-cancel-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+tr.ant-table-row.ant-table-row-level-0 {
+  cursor: pointer;
+}

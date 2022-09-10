@@ -1,0 +1,16 @@
+.header {
+  background-color: #cf2338;
+  padding: 20px 40px;
+}
+
+.body {
+  display: flex;
+  padding: 60px 40px 40px 40px;
+}
+
+.loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

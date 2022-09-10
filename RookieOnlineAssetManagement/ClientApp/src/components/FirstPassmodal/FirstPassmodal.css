@@ -1,0 +1,74 @@
+.modal .modal-dialog {
+  position: absolute;
+  right: 50%;
+  top: 20%;
+  transform: translateX(50%) !important;
+  width: 600px;
+  border: 0.5px solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.modal .modal-content {
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.modal .modal-header {
+  background-color: #eff1f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid;
+  padding: 16px 40px;
+}
+
+.modal .modal-title p {
+  color: #cf2338;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.modal .modal-body {
+  background-color: #fafcfc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 40px;
+}
+
+.modal .modal-change-password-error-list {
+  padding-left: 150px;
+  color: red;
+}
+
+.modal .modal-change-password-button-container {
+  text-align: right;
+  margin-top: 16px;
+}
+
+.modal .modal-change-password-button-container button {
+  border: none;
+  background-color: #e9424d;
+  color: white;
+}
+
+.modal .modal-change-password-button-container button:hover {
+  border: none;
+  background-color: #cf2338;
+  color: white;
+}
+
+.modal .modal-login-warning {
+  padding-left: 75px;
+  margin-bottom: 10px;
+}
+
+.modal .modal-login-button {
+  background-color: #e9424d;
+  color: white;
+}
+
+.modal .modal-login-button:hover {
+  background-color: #cf2338;
+  color: white;
+}

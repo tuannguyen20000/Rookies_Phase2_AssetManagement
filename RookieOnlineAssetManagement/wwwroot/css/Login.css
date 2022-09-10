@@ -1,0 +1,56 @@
+﻿.modal-dialog {
+  width: 600px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.modal-content {
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #eff1f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid;
+  padding: 16px 40px;
+}
+
+.modal-title {
+  color: #cf2338;
+  font-weight: bold;
+}
+
+.modal-body {
+  background-color: #fafcfc;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 40px;
+}
+
+.modal-login-warning {
+  padding-left: 75px;
+  margin-bottom: 10px;
+}
+
+.modal-login-button {
+  background-color: #e9424d;
+  color: white;
+}
+
+.modal-login-button:hover {
+  background-color: #cf2338;
+  color: white;
+}
+
+.modal-cancel-button {
+  border: 2px solid;
+  background-color: #cf2338;
+  color: white;
+}
+
+.modal-cancel-button {
+  border: 2px solid;
+}

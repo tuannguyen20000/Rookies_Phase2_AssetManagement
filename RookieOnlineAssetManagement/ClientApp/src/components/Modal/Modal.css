@@ -1,0 +1,28 @@
+﻿.modalStyle .ant-modal-title {
+  color: red;
+  font-weight: bold;
+}
+
+.modalStyle .ant-modal-header {
+  background: gainsboro;
+  border-bottom: groove;
+}
+
+.modalStyle .anticon anticon-close ant-modal-close-icon {
+  color: red;
+  border: solid;
+}
+
+.property {
+  width: 20%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.value {
+  text-align: left;
+  padding-left: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}

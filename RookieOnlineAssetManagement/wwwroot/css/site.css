@@ -1,0 +1,148 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.form-control:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 0 0.2rem #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.btn-link.nav-link:focus {
+  outline: black auto 1px;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.modal-dialog {
+    width: 600px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.modal-content {
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #eff1f5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid;
+    padding: 16px 40px;
+}
+
+.modal-title {
+    color: #cf2338;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #fafcfc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 40px;
+}
+
+.modal-login-warning {
+    padding-left: 75px;
+    margin-bottom: 10px;
+}
+
+.modal-login-button {
+    background-color: #e9424d;
+    color: white;
+}
+
+    .modal-login-button:hover {
+        background-color: #cf2338;
+        color: white;
+    }
+
+.modal-cancel-button {
+    border: 2px solid;
+    background-color: #cf2338;
+    color: white;
+}
+
+.modal-cancel-button {
+    border: 2px solid;
+}
+

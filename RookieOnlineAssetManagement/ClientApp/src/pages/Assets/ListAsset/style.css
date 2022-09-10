@@ -1,0 +1,162 @@
+.asset-table {
+  flex: 1;
+  padding-left: 4rem;
+}
+
+.asset-table .asset-table-header-filter {
+  margin-top: 0.5rem;
+}
+
+.asset-table .ant-table-wrapper {
+  margin-top: 1rem;
+}
+
+.create-asset-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #e9424d;
+  float: right;
+}
+
+.create-asset-button:hover {
+  background-color: #cf2338;
+}
+
+.asset-table-header-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.asset-table-filter-group {
+  flex: 1;
+}
+
+.asset-table .ant-table-wrapper {
+  margin-top: 1rem;
+}
+
+.asset-search-box {
+  border: 0.5px solid black;
+  border-radius: 5px;
+  float: right;
+  margin-right: 2rem;
+  width: 200px;
+}
+
+.search-box input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-box .ant-input-group-addon,
+.search-box > .ant-button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.asset-table
+  > .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child {
+  left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.asset-table
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button:not(.ant-btn-primary) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.update-button {
+  color: gray;
+  font-size: 20px;
+}
+/* .asset-table .ant-dropdown.ant-dropdown-placement-bottomRight, */
+.asset-button-states .ant-btn.ant-btn-default:first-child,
+.asset-button-categories .ant-btn.ant-btn-default:first-child {
+  width: 14rem !important;
+}
+.asset-icon-categories,
+.asset-button-states {
+    margin-right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    width: 16rem;
+    justify-content: space-between;
+}
+.asset-input-search,
+.asset-button-create {
+  float: right;
+}
+.asset-input-search {
+  margin-right: 1rem;
+}
+.ant-checkbox-indeterminate .ant-checkbox-inner::after {
+  background: none;
+}
+.ant-checkbox-wrapper,
+.ant-checkbox-group-item {
+  display: flex;
+  margin-right: 0;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-left: 0;
+}
+
+.disable-button {
+  color: red;
+  font-size: 20px;
+}
+
+.return-button {
+  color: blue;
+  font-size: 20px;
+}
+
+.update-button-cancel {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.disable-button-cancel {
+  color: rgb(235, 170, 170);
+  font-size: 20px;
+}
+
+.return-button-cancel {
+  color: lightblue;
+  font-size: 20px;
+}
+
+.asset-button-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.asset-edit-button {
+  color: gray;
+  cursor: pointer;
+}
+
+.asset-delete-button {
+  color: red;
+  cursor: pointer;
+}
+
+.asset-edit-button-disabled {
+  color: rgba(128, 128, 128, 0.2);
+  cursor: default;
+}
+
+.asset-delete-button-disabled {
+  color: rgba(255, 0, 0, 0.2);
+  cursor: default;
+}
